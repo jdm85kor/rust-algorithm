@@ -1,3 +1,6 @@
+#[macro_use]
+pub mod search;
+
 fn main() {
-    println!("Hello, world!");
+    pub use self::search::binary::binary_search;
 }

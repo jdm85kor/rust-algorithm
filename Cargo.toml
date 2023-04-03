@@ -2,6 +2,7 @@
 name = "rust-algorithm"
 version = "0.1.0"
 edition = "2021"
+authors = ["jdm85kor <jdm85kor@gmail.com>"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
