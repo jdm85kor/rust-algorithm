@@ -1,7 +1,7 @@
 use std::cmp::min;
 use std::cmp::Ordering;
 
-pub fn fibonacci<T: Ord>(item: &T, arr: &[T]) -> Option<usize> {
+pub fn fibonacci_search<T: Ord>(item: &T, arr: &[T]) -> Option<usize> {
   let len = arr.len();
   if len == 0{
     return None;
