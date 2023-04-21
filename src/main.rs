@@ -9,5 +9,6 @@ fn main() {
     pub use self::search::fibonacci::fibonacci_search;
     pub use self::search::interpolation::interpolation_search;
     pub use self::search::jump::jump_search;
+    pub use self::search::kth_smallest::kth_smallest;
 
 }
