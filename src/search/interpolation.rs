@@ -5,7 +5,7 @@ pub fn interpolation_search<Ordering>(nums: &[i32], item: &i32) -> Result<usize,
   let mut low: usize = 0;
   let mut high: usize = nums.len() - 1;
   while low <= high {
-    if *item < nums[low] || *ite > nums[high] {
+    if *item < nums[low] || *item > nums[high] {
       break;
     }
     let offset: usize = low + (((high - low) / (nums[high] - nums[low]) as usize ) * (*item - nums[low]) as usize);
