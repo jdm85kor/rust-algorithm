@@ -1,7 +1,7 @@
 use crate::sorting::partition;
 use std::cmp::{Ordering, PartialOrd};
 
-pub fn kth_smallest<T>(input: &mut [T], k: usize) -> Options<T>
+pub fn kth_smallest<T>(input: &mut [T], k: usize) -> Option<T>
 where
   T: PartialOrd + Copy,
 {
